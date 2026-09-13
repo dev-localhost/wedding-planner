@@ -1,0 +1,20 @@
+{
+  "name": "결혼 준비 체크리스트",
+  "short_name": "결혼준비",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "icons": [
+    {
+      "src": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/png/128/emoji_u1f48d.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/png/512/emoji_u1f48d.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
