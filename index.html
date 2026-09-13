@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="manifest" href="manifest.json">
+  <title>결혼 준비 체크리스트</title>
+  <style>
+    body, html { margin: 0; padding: 0; height: 100%; overflow: hidden; }
+    iframe { width: 100%; height: 100%; border: none; }
+  </style>
+</head>
+<body>
+  <!-- 여기에 Apps Script /exec URL을 넣습니다 -->
+  <iframe src="https://script.google.com/macros/s/AKfycbzCqjsqk3atIa9ZobvjS5S87CSPBNxTPXxVC1Yh582S/exec"></iframe>
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('sw.js');
+    }
+  </script>
+</body>
+</html>
